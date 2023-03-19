@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+section{
+    height: max-content;
+    overflow: hidden;
+}
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Poppins', sans-serif;
+ */
+
+.imgContainer{
+    position: relative;
+    height: max-content;
+    overflow: hidden;
+}
+.img1{
+    width: 100%;
+}
+.imgh1, .imgp, .imgbtn{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.imgh1{
+    top: 35%;
+    left: 50%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    width: 60%;
+    font-family: 'Inter', sans-serif;
+}
+.imgp{
+    top: 55%;
+    left: 50%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.imgbtn{
+    top: 65%;
+    left: 50%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, rgb(50, 255, 255), rgb(0, 153, 255));
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.sec2{
+    height: max-content;
+    overflow: hidden;
+    padding: 8% 0%;
+}
+.donate{
+    text-align: center;
+}
+h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.test p{
+    text-align: center;
+}
+.test{
+    width: 45%;
+    align-items: center;
+    align-content: center;
+    padding-left: 28%;
+}
+.tk1, .tk2{
+    display: inline-block;
+    padding: 0px 15px;
+}
+.tk1 h3{
+    border: 1px solid rgb(252, 253, 253);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: #FAFAFA;
+}
+.tk2 h3{
+    border: 2px solid cyan;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: rgb(228, 255, 255);
+}
+.option1, .option2, .option3{
+    padding: 35px 18px;
+    border-radius: 5px;
+}
+.option4, .option5{
+    padding: 35px 12px;
+    border-radius: 5px;
+    border-color: aliceblue;
+}
+.btn2, .btn3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, rgb(50, 255, 255), rgb(0, 153, 255));
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+.btn2{
+    padding: 10px 30px;
+}
+.btn3{
+    padding: 10px 20px;
+}
+.center-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+.sec3 .p1{
+    width: 50%;
+    color: gray;
+}
+#card{
+    display: flex;
+    justify-content: center;
+}
+.one-third{
+    width: 20%;
+    padding: 3% 2%;
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.card1{
+    background-color: #4f9ba321;
+}
+.card2{
+    background-color: #ff595923;
+}
+.card3{
+    background-color: rgba(255, 181, 71, 0.192);
+}
+.one-third p{
+    color: gray;
+}
+.half-width{
+    width: 40%;
+    padding: 4% 0% 3% 2%;
+}
+.contact{
+    position: relative;
+}
+.contact-type{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
